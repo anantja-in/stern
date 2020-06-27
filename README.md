@@ -41,7 +41,7 @@ brew install stern
 stern pod-query [flags]
 ```
 
-The `pod` query is a regular expression so you could provide `"web-\w"` to tail
+The `pod-query` is a regular expression so you could provide `"web-\w"` to tail
 `web-backend` and `web-frontend` pods but not `web-123`.
 
 ### cli flags
